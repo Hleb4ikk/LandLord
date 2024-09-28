@@ -1,0 +1,14 @@
+.logo{
+
+    display: flex;
+    position: relative;
+    align-items: center;
+    
+}
+.image{
+    position: relative;
+    min-width: 30px;
+    min-height: 30px;
+    width: 4vw;
+
+}

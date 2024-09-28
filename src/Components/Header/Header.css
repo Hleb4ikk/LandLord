@@ -1,0 +1,41 @@
+ul li:not(:last-child)::after {
+    padding: 0% 1vw;
+    color: rgba(0, 0, 0, 0.349);
+    content: "|";
+
+  }
+
+ul{
+
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    
+}
+
+header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50vw;
+    min-width: 100%;
+    padding: 0;
+    margin: 0;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.nav-list__link{
+
+    color: black;
+
+}
+.nav-list__link--active{
+
+    color: black;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: rgb(60, 60, 255);
+    
+}
