@@ -3,7 +3,6 @@ import "./Header.css"
 import Logo from './../Logo/Logo'
 
 import {NavLink, Link} from 'react-router-dom';
-import Search from "../Search/Search";
 
 const Header = () => {
 

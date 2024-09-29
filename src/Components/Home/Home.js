@@ -10,10 +10,11 @@ const Home = () => {
             <div>
                 <h1 className="homeTitle">Rent a house of your dreams</h1>
                 <ul className="categories">
-                    {categories.map((category) => {
+                    {categories.map((category, index) => {
 
                         return (
                           <HouseContainer
+                            key = {index}
                             title={category.title}
                             description={category.description}
                             img = {category.img}
