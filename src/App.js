@@ -6,7 +6,7 @@ import Footer from './Components/Footer/Footer';
 import Catalog from './Components/Catalog/Catalog';
 import Aboutus from './Components/AboutUs/Aboutus';
 
-import {Routes, Route, BrowserRouter as Router}  from "react-router-dom";
+import { Routes, Route, BrowserRouter as Router}  from "react-router-dom";
 
 function App() {
 

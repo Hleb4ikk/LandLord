@@ -4,5 +4,14 @@
     justify-content: center;
     margin-top: 1vh;
     width: 50vw;
+    height: 3.5vh;
     margin:auto;
+}
+.categories{
+
+    display: flex;
+    height: 80vh;
+    gap: 5vw;
+    align-items: center;
+    justify-content: center;
 }
