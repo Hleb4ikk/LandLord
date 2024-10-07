@@ -9,15 +9,13 @@ const House = () => {
 
     return ( 
 
-        <>
-        
-        <h1>{house.title}</h1>
-        <span>{house.class_type}</span>
-        <span>{house.type}</span>
-        <span>{house.price}</span>
-        <span>{house.account}</span>
-        <span></span>
-        </> 
+        <div>
+        <h1 >{house.title}</h1>
+        <div>{house.class_type}</div>
+        <div>{house.type}</div>
+        <div>{house.price}</div>
+        <div>{house.account}</div>
+        </div> 
 
      );
 }

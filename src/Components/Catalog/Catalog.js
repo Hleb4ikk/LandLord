@@ -6,14 +6,14 @@ import CatalogHouseContainer from "../CatalogHouseContainer/CatalogHouseContaine
 const Catalog = () => {
 
   return (
+
+    
     <div>
       <ul className="catalog_houses">
         {advertisements.map((advertisement, index) => {
 
-
-          return <CatalogHouseContainer
+          return <CatalogHouseContainer 
             key = {index}
-            photo={advertisement.photo}
             title={advertisement.title}
             class_type={advertisement.class_type}
             type={advertisement.type}
@@ -21,7 +21,7 @@ const Catalog = () => {
             account={advertisement.account}
             index={index}
           />;
-        })}
+        }) }
       </ul>
     </div>
   );

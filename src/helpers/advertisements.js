@@ -1,6 +1,5 @@
 const advertisements = [
     {
-        photo: true,
         title: "Просторный дом в центре города",
         type: "сдача",
         account: "user123",
@@ -9,7 +8,6 @@ const advertisements = [
         views: 0
     },
     {
-        photo: false,
         title: "Уютный коттедж на окраине",
         type: "продажа",
         account: "house_seller",
@@ -18,7 +16,6 @@ const advertisements = [
         views: 0
     },
     {
-        photo: true,
         title: "Элитный особняк с бассейном",
         type: "продажа",
         account: "luxury_life",
@@ -27,7 +24,6 @@ const advertisements = [
         views: 0
     },
     {
-        photo: true,
         title: "Современный дом с видом на реку",
         type: "сдача",
         account: "river_view",

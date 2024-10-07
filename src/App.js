@@ -8,6 +8,7 @@ import Aboutus from './Components/AboutUs/Aboutus';
 
 import { Routes, Route, BrowserRouter as Router}  from "react-router-dom";
 import House from './Components/House/House';
+import RegistrationForm from './Components/RegistrationForm/RegistrationForm';
 
 function App() {
   return ( 
@@ -21,7 +22,7 @@ function App() {
           <Route path = "/catalog" Component = { Catalog }/>
           <Route path = "/catalog/:id" Component = { House }/>
           <Route path = "/about_us" Component = { Aboutus }/>
-
+          <Route path = '/registration' Component = {RegistrationForm}/>
         </Routes>
         <Footer/>
       </Router>  
